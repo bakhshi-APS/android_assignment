@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!-- General palettes -->
+    <color name="black_solid">#000000</color>
+    <color name="lochmara">#008ECF</color>
+    <color name="lima">#78BE20</color>
+    <color name="monza">#E20015</color>
+    <color name="you_tube_red">#A20015</color>
+    <color name="bondi_blue">#00A8B0</color>
+    <color name="white_solid">#ffffff</color>
+
+    <!-- Palette Bahama blue -->
+    <color name="bahama_blue_general">#005691</color>
+    <color name="bahama_blue_link">#00639a</color>
+
+    <!-- Palette gray -->
+    <color name="gray_athens">#EFEFF0</color>
+    <color name="gray_chateau">#a8afb5</color>
+    <color name="gray_iron">#d4d7da</color>
+    <color name="gray_oslo">#7d8790</color>
+    <color name="gray_shuttle">#525F6B</color>
+    <color name="gray_silver_sand">#BFC0C2</color>
+</resources>
