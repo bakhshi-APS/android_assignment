@@ -1,9 +1,5 @@
 package pune.sicsr.assignment_tasks;
 
-import androidx.appcompat.app.AppCompatActivity;
-import pune.sicsr.assignment_tasks.database.DbContracts;
-import pune.sicsr.assignment_tasks.database.PatientDbHelper;
-
 import android.content.ContentValues;
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
@@ -15,6 +11,10 @@ import android.widget.Toast;
 import com.google.android.material.textfield.TextInputEditText;
 
 import java.util.Objects;
+
+import androidx.appcompat.app.AppCompatActivity;
+import pune.sicsr.assignment_tasks.database.DbContracts;
+import pune.sicsr.assignment_tasks.database.PatientDbHelper;
 
 public class PatientsActivity extends AppCompatActivity {
 

@@ -1,20 +1,17 @@
 package pune.sicsr.assignment_tasks;
 
-import androidx.appcompat.app.AppCompatActivity;
-import pune.sicsr.assignment_tasks.database.DbContracts;
-import pune.sicsr.assignment_tasks.database.DoctDbHelper;
-import pune.sicsr.assignment_tasks.model.Fruit;
-
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
-import android.database.sqlite.SQLiteOpenHelper;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 
-import java.util.AbstractList;
 import java.util.ArrayList;
 import java.util.List;
+
+import androidx.appcompat.app.AppCompatActivity;
+import pune.sicsr.assignment_tasks.database.DbContracts;
+import pune.sicsr.assignment_tasks.database.DoctDbHelper;
 
 public class ViewDoctors extends AppCompatActivity {
 

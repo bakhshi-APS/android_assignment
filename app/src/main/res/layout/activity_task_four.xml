@@ -6,72 +6,72 @@
     android:orientation="vertical"
     tools:context=".PatientsActivity">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="end"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="50dp"
-        android:background="@color/bondi_blue"
-        android:onClick="insertToDb"
-        android:text="@string/insert"
-        android:textColor="@color/white_solid" />
-
-
-    <Button
-        android:layout_width="140dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="end"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="50dp"
-        android:background="@color/colorPrimaryDark"
-        android:onClick="goToFindPatient"
-        android:text=" Find Patient "
-        android:textColor="@color/white_solid" />
-
     <com.google.android.material.textfield.TextInputLayout
+        android:layout_margin="10dp"
+        android:padding="12dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:hint="@string/patient_dob"
-        android:padding="12dp">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/patient_dob"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="date" />
-    </com.google.android.material.textfield.TextInputLayout>
-
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:hint="@string/patient_name"
-        android:padding="12dp">
+        android:hint="@string/patient_name">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/patient_name"
+            android:inputType="text"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="text" />
+            android:layout_height="wrap_content" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
+
     <com.google.android.material.textfield.TextInputLayout
+        android:layout_margin="10dp"
+        android:padding="12dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:hint="Patient Id"
-        android:padding="12dp">
+        android:hint="Patient Id">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/patient_id"
+            android:inputType="number"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="number" />
+            android:layout_height="wrap_content" />
     </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_margin="10dp"
+        android:padding="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/patient_dob">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/patient_dob"
+            android:inputType="date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:onClick="insertToDb"
+        android:textColor="@color/white_solid"
+        android:background="@color/bondi_blue"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        android:layout_gravity="end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/insert" />
+
+    <Button
+        android:onClick="goToFindPatient"
+        android:textColor="@color/white_solid"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        android:layout_gravity="end"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text=" Find Patient " />
 
 
 </LinearLayout>
