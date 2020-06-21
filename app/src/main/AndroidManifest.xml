@@ -9,12 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ViewDoctors"></activity>
-        <activity android:name=".TaskFour" />
-        <activity android:name=".TaskThree" />
-        <activity android:name=".TaskTwo" />
+        <activity android:name=".FindPatientActivity"></activity>
+        <activity android:name=".ViewDoctors" />
+        <activity android:name=".PatientsActivity" />
+        <activity android:name=".DoctorsActivity" />
+        <activity android:name=".EmployeesActivity" />
         <activity
-            android:name=".AddViewActivity"
+            android:name=".AddViewFruits"
             android:label="@string/title_activity_add_view"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity

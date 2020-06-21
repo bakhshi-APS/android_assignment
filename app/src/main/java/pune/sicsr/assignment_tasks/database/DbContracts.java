@@ -43,6 +43,19 @@ public final class DbContracts {
             "DROP TABLE IF EXISTS " + TableEntries.TABLE_NAME_DOCTORS;
 
 
+    // Patients Table Sql
+
+    public static String SQL_CREATE_ENTRIES_PATIENTS =
+            "CREATE TABLE " + TableEntries.TABLE_NAME_PATIENTS + " (" +
+                    TableEntries._ID + " INTEGER PRIMARY KEY," +
+                    TableEntries.PATIENT_ID + " LONG," +
+                    TableEntries.PATIENT_NAME + " TEXT," +
+                    TableEntries.PATIENT_DOB + " TEXT)";
+
+    public static String SQL_DELETE_ENTRIES_PATIENTS =
+            "DROP TABLE IF EXISTS " + TableEntries.TABLE_NAME_PATIENTS;
+
+
     private DbContracts() {
     }
 
@@ -68,6 +81,14 @@ public final class DbContracts {
         public static final String DOCT_SPECIALIZE = "doctor_specialization";
         public static final String DOCT_SPECIALIZE_ID = "doctor_specialization_id";
 
+
+        // Patients entries
+
+
+        public static final String TABLE_NAME_PATIENTS = "patients";
+        public static final String PATIENT_ID = "patient_id";
+        public static final String PATIENT_NAME = "patient_name";
+        public static final String PATIENT_DOB = "patient_dob";
 
 
     }

@@ -8,4 +8,8 @@
     <string name="specialization_id">Specialization Id</string>
     <string name="doctor_specialization">Doctor Specialization</string>
     <string name="specialization">Specialization>></string>
+    <string name="patient_dob">Patient DOB</string>
+    <string name="patient_name">Patient Name</string>
+    <string name="patient_id">Patient Id</string>
+
 </resources>

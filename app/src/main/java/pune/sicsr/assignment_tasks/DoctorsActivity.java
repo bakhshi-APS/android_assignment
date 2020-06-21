@@ -1,13 +1,8 @@
 package pune.sicsr.assignment_tasks;
 
-import androidx.appcompat.app.AppCompatActivity;
-import pune.sicsr.assignment_tasks.database.DbContracts;
-import pune.sicsr.assignment_tasks.database.DoctDbHelper;
-
 import android.content.ContentValues;
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
-import android.database.sqlite.SQLiteOpenHelper;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -15,7 +10,11 @@ import android.widget.Toast;
 
 import com.google.android.material.textfield.TextInputEditText;
 
-public class TaskThree extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
+import pune.sicsr.assignment_tasks.database.DbContracts;
+import pune.sicsr.assignment_tasks.database.DoctDbHelper;
+
+public class DoctorsActivity extends AppCompatActivity {
 
     private TextInputEditText doctSpecialize, doctId;
 

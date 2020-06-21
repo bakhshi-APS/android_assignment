@@ -24,7 +24,7 @@ import pune.sicsr.assignment_tasks.database.DbContracts;
 import pune.sicsr.assignment_tasks.database.FruitDbHelper;
 import pune.sicsr.assignment_tasks.model.Fruit;
 
-public class AddViewActivity extends AppCompatActivity
+public class AddViewFruits extends AppCompatActivity
         implements View.OnClickListener {
 
     RecyclerView recyclerView;

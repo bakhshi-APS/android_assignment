@@ -15,7 +15,7 @@ import android.widget.Toast;
 
 import com.google.android.material.textfield.TextInputEditText;
 
-public class TaskTwo extends AppCompatActivity {
+public class EmployeesActivity extends AppCompatActivity {
 
 
     private RatingBar empRate;

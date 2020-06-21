@@ -15,20 +15,20 @@ public class TasksMenue extends AppCompatActivity {
     }
 
     public void goTaskOne(View view) {
-        startActivity(new Intent(this, AddViewActivity.class));
+        startActivity(new Intent(this, AddViewFruits.class));
     }
 
     public void goTaskTwo(View view) {
-        startActivity(new Intent(this, TaskTwo.class));
+        startActivity(new Intent(this, EmployeesActivity.class));
     }
 
     public void goTaskThree(View view) {
-        startActivity(new Intent(this, TaskThree.class));
+        startActivity(new Intent(this, DoctorsActivity.class));
 
     }
 
     public void goTaskFour(View view) {
-        startActivity(new Intent(this, TaskFour.class));
+        startActivity(new Intent(this, PatientsActivity.class));
 
     }
 }
