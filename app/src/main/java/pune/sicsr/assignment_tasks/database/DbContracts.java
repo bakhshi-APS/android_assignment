@@ -19,7 +19,7 @@ public final class DbContracts {
             "DROP TABLE IF EXISTS " + TableEntries.TABLE_NAME_FRUITS;
 
 
-    // Employee tables SQL
+    // Employee table SQL
     public static String SQL_DELETE_ENTRIES_EMPLOYEES =
             "DROP TABLE IF EXISTS " + TableEntries.TABLE_NAME_EMPLOYEES;
 
@@ -29,6 +29,18 @@ public final class DbContracts {
                     TableEntries.EMP_NAME + " TEXT," +
                     TableEntries.EMP_SALARY + " LONG," +
                     TableEntries.EMP_RATING + " DOUBLE)";
+
+
+    // Doctors table SQL
+
+    public static String SQL_CREATE_ENTRIES_DOCTORS =
+            "CREATE TABLE " + TableEntries.TABLE_NAME_DOCTORS + " (" +
+                    TableEntries._ID + " INTEGER PRIMARY KEY," +
+                    TableEntries.DOCT_SPECIALIZE + " TEXT," +
+                    TableEntries.DOCT_SPECIALIZE_ID + " LONG)";
+
+    public static String SQL_DELETE_ENTRIES_DOCTORS =
+            "DROP TABLE IF EXISTS " + TableEntries.TABLE_NAME_DOCTORS;
 
 
     private DbContracts() {
@@ -47,6 +59,15 @@ public final class DbContracts {
         public static final String EMP_NAME = "employee_name";
         public static final String EMP_SALARY = "employee_salary";
         public static final String EMP_RATING = "employee_id";
+
+
+        // Doctors Specialization entries
+
+
+        public static final String TABLE_NAME_DOCTORS = "doctors";
+        public static final String DOCT_SPECIALIZE = "doctor_specialization";
+        public static final String DOCT_SPECIALIZE_ID = "doctor_specialization_id";
+
 
 
     }

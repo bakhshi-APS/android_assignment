@@ -3,4 +3,9 @@
     <string name="title_activity_add_view">Add or View Fruits</string>
     <string name="fruit_id">Fruit Id</string>
     <string name="name"> Fruit Name</string>
+    <string name="salary">Salary</string>
+    <string name="insert">Insert</string>
+    <string name="specialization_id">Specialization Id</string>
+    <string name="doctor_specialization">Doctor Specialization</string>
+    <string name="specialization">Specialization>></string>
 </resources>

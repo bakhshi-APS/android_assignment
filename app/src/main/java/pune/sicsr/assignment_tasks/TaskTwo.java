@@ -24,10 +24,7 @@ public class TaskTwo extends AppCompatActivity {
 
     private TextInputEditText empName, empSalary;
 
-
     EmpDbHelper empDbHelper = new EmpDbHelper(this);
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,9 +33,6 @@ public class TaskTwo extends AppCompatActivity {
         empRate = findViewById(R.id.rating);
         empName = findViewById(R.id.emp_name);
         empSalary = findViewById(R.id.emp_salary);
-
-
-
     }
 
     public void insertToDb(View view) {
@@ -60,8 +54,6 @@ public class TaskTwo extends AppCompatActivity {
 
         empName.setText("");
         empSalary.setText("");
-        empRate.setRating(Float.parseFloat("0.5"));
-
-
+        empRate.setRating(Float.parseFloat("0.0"));
     }
 }

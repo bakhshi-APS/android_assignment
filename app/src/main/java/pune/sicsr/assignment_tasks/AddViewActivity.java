@@ -89,7 +89,7 @@ public class AddViewActivity extends AppCompatActivity
         );
 
 
-        List itemIds = new ArrayList<>();
+//        List itemIds = new ArrayList<>();
         while (cursor.moveToNext()) {
             long fruitid = cursor.getLong(
                     cursor.getColumnIndexOrThrow(DbContracts.TableEntries.FRUIT_ID));
